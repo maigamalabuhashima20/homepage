@@ -1,0 +1,75 @@
+/*header*/
+.header1 , .header2 , .header3 , .header4{
+    height: 500px;
+}
+.header1{background: url("courses.jpg"); background-repeat: no-repeat; background-position: center;}
+.header2{background: url("web.jpg");background-repeat: no-repeat;background-position: center;}
+.header3{background: url("desktop.png");background-repeat: no-repeat;background-position: center;}
+.header4{background: url("mobile.jpg");background-repeat: no-repeat; background-position: center;}
+.container{
+    width: 700px;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+/*menu*/
+.menu{
+    height: 40px;
+    padding-top: 10px ;
+    background: white;
+}
+.menu .container h2{
+    color:black;
+    float: left;
+    position: relative;
+    bottom: 35px;
+}
+.menu .container ul{
+    list-style: none;
+
+}
+.menu .container ul li{
+    float:right;
+    position: relative;
+    bottom: 10px;
+    margin-left: 30px;
+}
+.menu .container ul li:hover{
+    color:teal;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+/*content*/
+.courses{
+    margin-top: 50px;
+}
+.courses .container .box1{
+    float: left;
+    width: 40%;
+}
+.courses .container .m{
+    float: right;
+    width: 50%;
+}
+.courses .container .box2 .b1{
+    float:left;
+    width: 33.3333%;
+    text-align: center; 
+}
+.courses .container .box2 .b1 img{
+    width: 75%;
+    margin-top: 50px;
+}
+
+.courses .container .box3 .b1{
+    float:left;
+    width: 25%;
+    text-align: center; 
+}
+
+.courses .container .box3 .b1 img{
+    width: 75%;
+    margin-top: 50px;
+}
+
